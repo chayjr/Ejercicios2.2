@@ -57,7 +57,7 @@ def punto_fijo(x0, tol=10e-5, max_iter=100): #Se cambia la tolerancia para grafi
     return iteraciones, errores_abs, errores_rel, errores_cuad
 
 # Parámetros iniciales
-x0 = 1.0  #Se cambio el x0 que es el valor inicial a 1.5
+x0 = 1.0  #Se cambio el x0 que es el valor inicial a 1.0
 iteraciones, errores_abs, errores_rel, errores_cuad = punto_fijo(x0)
 
 # Imprimir tabla de iteraciones
