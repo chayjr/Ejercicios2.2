@@ -71,7 +71,7 @@ x_vals = np.linspace(-1, 3, 100) #Se cambio el tamaño de la grafica para que no
 y_vals = g(x_vals)
 
 plt.figure(figsize=(8, 5))
-plt.plot(x_vals, y_vals, label=r"$g(x) = (1 - x)^{1/3}$", color="blue")
+plt.plot(x_vals, y_vals, label=r"$g(x) = (-1 + 3x)^{1/2}$", color="blue")
 plt.plot(x_vals, x_vals, linestyle="dashed", color="red", label="y = x")
 
 # Graficar iteraciones
